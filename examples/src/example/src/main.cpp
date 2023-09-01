@@ -14,7 +14,7 @@ void demoField();
 int main(int argc, char** argv) {
 
     // 初始化ROS节点
-    ros::init(argc, argv, "lrosvis_example");
+    ros::init(argc, argv, "livz_example");
     
     // 创建节点句柄
     ros::NodeHandle nh;

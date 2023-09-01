@@ -9,11 +9,11 @@ Livz是基于ROS1框架的针对Rviz可视化的轻量级工具，封装了Rviz�
 
 首先克隆仓库
 ```
-git clone 
+git clone https://github.com/LanternW/Livz.git
 ```
 编译与安装：
 ```
-cd 
+cd Livz
 mkdir build & cd build
 cmake ..
 make 
@@ -23,8 +23,7 @@ sudo make install
 ### 运行演示程序
 ---
 ```
-cd 
-cd example
+cd Livz/example
 catkin_make
 source devel/setup.bash
 roslaunch example run_demo.launch
